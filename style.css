@@ -4,14 +4,15 @@ body{
 
 .gimage img {
     padding-top: 7%;
-    height: 16%;
+    height: 13%;
     width: auto;
   }
 .navbar a:hover{
     text-decoration: underline;
 }
 .navbar{
-    padding-top:1%;
+    padding-top:0.5px;
+    padding-right: 3%;
     text-decoration: none;
     text-align: end;
     font-size: 13.5;
@@ -22,27 +23,56 @@ body{
     background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
     font-family: arial,sans-serif;
 }
-
-.navbar a.active {
-    color: #2196F3;
+ul {
+    list-style-type: none;
+    overflow: hidden;
   }
-.navbar a{
+li{float: right;
+    padding-right: 1%;}
+
+.grid{
+    height:25px;
+    padding-right:1%;
+    position:relative;
+    bottom:4px;
+  }
+a{
     padding-right: 1%;
+    display: block;
 }
 
-input{
+.bar{
     float: center;
-    width: 35%;
-    height: 6%;
+    width: 36%;
+    height: 5%;
     border:2px  black;
     box-shadow: 0px 0px 2px #757575;
-    border-radius: 20px;
-    font-size: 16px;
+    border-radius: 25px;
     padding: 5px 5px 5px 25px;
   }
-  input:hover{
-    box-shadow: 0px 1px 8px #b8b8b8;
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar input{
+    float: left;
+    width: 93%;
+    border:1px;
+    height: 100%;
+    font-size: 16px;
+    padding: 5px 5px 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+
+  .mic img{
+      height: 50%;
+      position: relative;
+      bottom: 26px;
+  }
+  @media only screen and (max-width: 1080px) {
+    .mic img {
+      display: none;
+    }
   }
   button{
     border: 1px solid #f8f9fa;
@@ -63,5 +93,45 @@ input{
 
   button:hover{
     box-shadow: 0px 1px 6px #b8b8b8;
+  }
 
+  .footer {
+    position: fixed;
+    border:3px black;
+    box-shadow: 0px 0px 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    padding: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+
+  .f2 {
+    position: fixed;
+    border:3px black;
+    box-shadow: 0px 0px 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+
+
+  }
+  .f2 a{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:14px;
+      text-decoration: none;
+      color: rgba(0,0,0,.54);
+  }
+
+  .f2 li{
+      float:left;
+      width: 5%;
   }
