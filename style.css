@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+
+.gimage img {
+    padding-top: 4%;
+    width: 35%;
+    height: auto;
+  }
