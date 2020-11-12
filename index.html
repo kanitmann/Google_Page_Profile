@@ -1,6 +1,7 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="Script/script.js"></script>
         <link rel="shortcut icon" href="IMG/iconfinder_new-google-favicon_682665.png">        
         <title>
             Google - Kanit Mann
@@ -23,13 +24,14 @@
         <div class="gimage">
             <img src = "IMG/googlelogo_color_272x92dp.png"><br>
             <br><div class="bar">
-                <input class="searchbar" type="text" title="Search">
+                <input class="searchbar" id ="search"  type="text" title="Search">
                 <div class="mic">
                     <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
                 </div>
             </div>
                 <br><br>
-            <button>Google Search</button><button>I'm Feeling Lucky</button>
+            <button onclick="search()">Google Search</button>
+            <button>I'm Feeling Lucky</button>
         </div>
         </center>
         <div class="footer">
