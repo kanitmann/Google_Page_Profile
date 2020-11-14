@@ -1,19 +1,16 @@
 body
 {
     font-family: Arial, sans-serif;
-
     min-width: 900px;
     height: 100%;
     margin: 0;
     padding: 0;
-
     white-space: nowrap;
 }
 
 li
 {
     display: inline;
-
     list-style: none;
 }
 
@@ -25,7 +22,6 @@ li a:hover
 a
 {
     text-decoration: none;
-
     color: #444;
 }
 
@@ -63,11 +59,18 @@ input
     padding: 5px 5px 5px 5px;
     padding-left: 50px;
     box-shadow: 0px 0px 4px #dcdcdc;
+    size:14;
+    color:rgba(0,0,0,0.87);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 input:hover{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;}
 .mag-glass
 {
     position: relative;

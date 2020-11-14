@@ -18,16 +18,17 @@ body{
     font-size: 13.5;
     white-space: nowrap;
     color:rgba(0,0,0,0.87);
-    cursor: pointer;
     white-space: nowrap;
     font-family: arial,sans-serif;
 }
 ul {
     list-style-type: none;
+    
     overflow: hidden;
   }
 li{float: right;
-    padding-right: 1%;}
+  cursor: pointer;  
+  padding-right: 1%;}
 
 .grid{
     height:25px;
@@ -60,6 +61,7 @@ a{
     font-size: 16px;
     padding: 5px 5px 5px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0,0,0,0.87);
   }
 
   input:focus, textarea:focus, select:focus{
