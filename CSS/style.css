@@ -55,14 +55,16 @@ a{
   .bar input{
     float: left;
     width: 93%;
-    border:1px;
+    border:none;
     height: 100%;
     font-size: 16px;
     padding: 5px 5px 5px 0px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
   .mic img{
       height: 50%;
       position: relative;
