@@ -67,7 +67,7 @@ a{
   .mic img{
       height: 50%;
       position: relative;
-      bottom: 26px;
+      top:20px;
   }
   @media only screen and (max-width: 1080px) {
     .mic img {

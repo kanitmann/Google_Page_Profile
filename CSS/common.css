@@ -1,0 +1,125 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    min-width: 900px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    white-space: nowrap;
+}
+
+li
+{
+    display: inline;
+
+    list-style: none;
+}
+
+li a:hover
+{
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #444;
+}
+
+
+.header
+{
+    width: 100%;
+
+    white-space: nowrap;
+
+}
+
+.gimge
+{
+    position: relative;
+    top: 4px;
+    left: 5px;
+    height: 40px;
+    width:auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+input
+{
+    font-size: 16px;
+    position: relative;
+    top:-15px;
+    left: 15px;
+    border:1px;
+    height:30px;
+    width: 39%;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 4px #dcdcdc;
+}
+
+input:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.mag-glass
+{
+    position: relative;
+    top: -12px;
+    left: -50px
+    display: relative;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.top-links-right
+{
+    float: right;
+
+    margin-right: 20px;
+}
+
+.icon
+{
+    position: relative;
+    top: 28px;
+    right: 45px;
+
+    display: inline;
+    float: right;
+
+    height: 15px;
+}
+
+.sign-in
+{
+    font-family: Arial, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+
+    position: relative;
+    top: 20px;
+    right: 29px;
+
+    float: right;
+
+    padding: 7px 13px;
+
+    color: white;
+    border: 1px solid #3083ff;
+    border-radius: 3px;
+    background-color: #3083ff;
+}
+
+.sign-in:hover
+{
+    text-decoration: none;
+}
+
+
