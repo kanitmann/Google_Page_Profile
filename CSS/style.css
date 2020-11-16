@@ -1,4 +1,4 @@
-body{
+  body{
     background-color: white;
 }
 
@@ -159,7 +159,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:14px;
   }
-
+.ind{
+  display: inline-block;
+}
+.sug{
+  display: inline-block;
+  padding-left: 80%;
+}
   .f2 {
     position: fixed;
     border:3px black;
