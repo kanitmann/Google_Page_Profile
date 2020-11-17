@@ -155,9 +155,73 @@ input:focus, textarea:focus, select:focus{
     text-align: left;
     padding: 10px 0px;
     font-size:14px;
+    display: flex;
 }
-.stage{
-    padding: 0px 182px;
+.left_col{
+    padding-left: 12%;
+    width:50%;
+    flex:4 1;
+}
+
+.searchq{
+
     color: rgba(255, 255, 255, 0.87);
     opacity: 70%;
+}
+.right_col{
+    margin-top: 35px;
+    border-radius: 10px;   
+    flex:2 1;
+    box-shadow: 0px 0px 3px lightgray;
+}
+
+.w_space{
+    flex:1 1;
+}
+
+.right_col img{
+    border-radius: 8px;
+    width: 72%;
+    height:auto;
+    background-color: white;
+    padding-left: 14%;
+    padding-top: 2%;
+    padding-right: 14%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name p{
+    font-size: 18px;
+    padding-left:75%;
+}
+
+.introduction{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left:20px;
+    padding-right: 20px;
+    text-align:justify;
+}
+
+.introduction a{
+    color: #3083ff;
+}
+
+.findme{
+    padding-left: 20px;
+    padding-top:20px;
+}
+
+.findme a{
+    font-size: 16px;
+    color:#3083ff;
+}
+
+.findme img{
+    height:42px;
+    width:42px;
+    padding: 0px 0px 0px 0px;
+    padding-top:10px;
+    box-shadow: 0px 0px 0px 0;
+    padding-right: 15px;
 }
