@@ -193,7 +193,7 @@ input:focus, textarea:focus, select:focus{
 .name p{
     font-size: 18px;
     color:rgba(0, 0, 0, 0.816);
-    padding-left:75%;
+    padding-left:70%;
     font-family: lato;
 }
 
@@ -227,4 +227,26 @@ input:focus, textarea:focus, select:focus{
     padding-top:10px;
     box-shadow: 0px 0px 0px 0;
     padding-right: 16px;
+}
+
+.boxy{
+    margin-top: 5%;
+}
+
+.boxy a{
+    color: blue;
+    font-family: arial,sans-serif;
+    font-size:20px;
+}
+
+/*.boxy a:visited{
+    color:purple;
+}*/
+.desc{
+    color:#4d5156;
+    margin-top: 10px;
+    font-size: 14px;
+}
+desc p{
+    padding-top: 5px;
 }
