@@ -192,11 +192,14 @@ input:focus, textarea:focus, select:focus{
 
 .name p{
     font-size: 18px;
+    color:rgba(0, 0, 0, 0.816);
     padding-left:75%;
+    font-family: lato;
 }
 
 .introduction{
     font-family: Arial, Helvetica, sans-serif;
+
     font-size: 15px;
     padding-left:20px;
     padding-right: 20px;
@@ -223,5 +226,5 @@ input:focus, textarea:focus, select:focus{
     padding: 0px 0px 0px 0px;
     padding-top:10px;
     box-shadow: 0px 0px 0px 0;
-    padding-right: 15px;
+    padding-right: 16px;
 }
