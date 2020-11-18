@@ -239,6 +239,12 @@ input:focus, textarea:focus, select:focus{
     font-size:20px;
 }
 
+.boxy2 a{
+    color: blue;
+    font-family: arial,sans-serif;
+    font-size:20px;
+    padding-top: -5px
+}
 /*.boxy a:visited{
     color:purple;
 }*/
