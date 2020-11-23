@@ -156,6 +156,7 @@ input:focus, textarea:focus, select:focus{
     padding: 10px 0px;
     font-size:14px;
     display: flex;
+    overflow-y:scroll;
 }
 .left_col{
     padding-left: 12%;
@@ -331,4 +332,8 @@ input:focus, textarea:focus, select:focus{
     color: #bbb;
     
     text-align: right;
+  }
+
+  embed{
+      padding-right: 5px; 
   }
